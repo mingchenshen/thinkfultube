@@ -1,0 +1,27 @@
+body{
+	text-align: center;
+}
+
+form{
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+.results{
+	width: 320px;
+	margin: 0 auto;
+}
+
+.results img{
+	background-color: black;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.results img:hover{
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
